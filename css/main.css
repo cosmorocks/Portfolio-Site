@@ -219,7 +219,7 @@ canvas {
   overflow: hidden;
 }
 
-@media (min-width: 1024px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1025px) {
   .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
