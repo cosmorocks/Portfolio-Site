@@ -218,50 +218,6 @@ canvas {
   overflow: hidden;
 }
 
-@media (min-height: 1024px) {
-  .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .container .side {
-    width: 100%;
-    height: 50%;
-  }
-  .container .left .my-img {
-    width: 500px;
-    height: 500px;
-    display: block;
-    margin: 20px auto;
-  }
-  .container .left .my-img .typed-text {
-    color: white;
-    font-size: 85px;
-    bottom: -8.5%;
-  }
-  .container .right .text-container {
-    margin-top: 50px;
-    text-align: center;
-  }
-  .container .right .text-container .bio-text {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .container .right .text-container .bio-text h1 {
-    font-size: calc(4vw + 0.3vw);
-  }
-  .container .right .text-container .my-links h2 {
-    font-size: calc(3vw + 0.3vw);
-  }
-  .social-container i {
-    font-size: 37px;
-  }
-  .menu-items .menu-link {
-    font-size: 5.5vw;
-  }
-}
-
 @media (max-width: 768px) {
   .container {
     -webkit-box-orient: vertical;
