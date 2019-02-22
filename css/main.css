@@ -40,6 +40,11 @@ nav button .hamburger {
   color: #77FFBC;
 }
 
+nav button .hamburger i {
+  color: #77FFBC;
+  font-size: 35px;
+}
+
 .hide {
   display: none;
 }

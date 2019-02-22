@@ -12,6 +12,10 @@ nav{
         .hamburger{
             font-size: 33px;
             color: $highlight-font-color;
+            i{
+                color: $highlight-font-color;
+                font-size: 35px;
+            }
         }
         float: right;
         margin-top: 4px;
