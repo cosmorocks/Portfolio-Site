@@ -31,6 +31,7 @@
         }
     }
     .right{
+        z-index: 9999;
         display: flex;
         .text-container{
             margin-top: 8%;
@@ -59,7 +60,7 @@
     .social-container{
         position: absolute;
         bottom: 20px;
-        right: 0;
+        right: 4%;
         a{
             padding: 0px 15px 0px 15px;
         }
