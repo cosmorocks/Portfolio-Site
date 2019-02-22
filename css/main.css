@@ -186,6 +186,33 @@ canvas {
   display: inline;
 }
 
+.temp-msg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+}
+
+.temp-msg div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#temp-body {
+  overflow: hidden;
+}
+
 @media (max-width: 768px) {
   .container {
     -webkit-box-orient: vertical;

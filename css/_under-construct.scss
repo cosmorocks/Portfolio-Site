@@ -1,0 +1,14 @@
+.temp-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    div{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+#temp-body{
+    overflow: hidden;
+}
