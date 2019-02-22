@@ -1,5 +1,5 @@
 // ipad pro
-@media(max-width:1024px){
+@media(min-height:1024px){
     .container{
         flex-direction: column;
         .side{
@@ -9,8 +9,8 @@
         }
         .left{
             .my-img{
-                width: 600px;
-                height: 600px;
+                width: 500px;
+                height: 500px;
                 display: block;
                 margin: 20px auto;
                 .typed-text{
@@ -24,7 +24,7 @@
         }
         .right{
             .text-container{
-                margin-top: 170px;
+                margin-top: 50px;
                 text-align: center;
                 .bio-text{
                     width: 90%;

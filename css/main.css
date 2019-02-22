@@ -218,7 +218,7 @@ canvas {
   overflow: hidden;
 }
 
-@media (max-width: 1024px) {
+@media (min-height: 1024px) {
   .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -230,8 +230,8 @@ canvas {
     height: 50%;
   }
   .container .left .my-img {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     display: block;
     margin: 20px auto;
   }
@@ -241,7 +241,7 @@ canvas {
     bottom: -8.5%;
   }
   .container .right .text-container {
-    margin-top: 170px;
+    margin-top: 50px;
     text-align: center;
   }
   .container .right .text-container .bio-text {
