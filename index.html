@@ -1,0 +1,78 @@
+<!-- Made with love by matthew han -->
+<!-- coded from scratch yo -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matthew Han</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    <!-- NAVIGATION MENU  -->
+    <div id="menu-items" class="menu-items">
+        <ul>
+            <li><a href="" class="menu-link">Visit my blog</a></li>
+            <li><a href="" class="menu-link">Contact me</a></li>
+        </ul>
+    </div>
+    <div id="navi" class="navigation-menu">
+        <button onClick="hideNavi()" id="closeBtn"><i class="fas fa-times x"></i>
+        </button>
+    </div>
+
+    <!-- MOVING DOTS BG -->
+    <canvas></canvas>
+
+    <!-- NAV BAR -->
+    <nav>
+        <h1><a href="./index.html">Matthew Han</a></h1>
+        <button onClick="showNavi()" id="hambooger"><div class="hamburger" id="hambooger_text">&#9776;</div></button>
+    </nav>
+
+    <!-- site body -->
+    <div class="container">
+        <div class="side left">
+            <div class="my-img">
+                <div class="typed-text"><span class="about-me-title"></span></div>
+            </div> 
+        </div>
+        <div class="side right">
+            <div class="text-container">
+                <div class="bio-text">
+                    <h1>3rd-year student at the Univesity of Virginia, majoring in Computer Science and Studio Art.</h1>
+                </div>
+                <div class="my-links">
+                    <h2>View my  <a href="./assets/matthew-han-resume.pdf" target="_blank"> Resume here</a></h2>
+                    <h2>View my  <a href="./assets/matthew-han-portfolio.pdf" target="_blank"> Design work here</a></h2>
+                    <h2>View my  <a href="https://github.com/MatthewLeeHan" target="_blank"> Developer work here</a></h2>
+                    <h2>View my  <a href="https://www.youtube.com/user/TheMatt3337" target="_blank"> Videos and films here</a></h2>
+                </div>
+            </div>
+        </div>
+        <div class="social-container">
+            <a href="https://www.youtube.com/user/TheMatt3337" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/MatthewLeeHan" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/matthewlhan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/mistahhan/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <script src="./js/canvas.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      var options = {
+        strings: ["Student", "Developer", "Designer", "Videographer"],
+        typeSpeed: 60,
+        backSpeed: 60,
+        backDelay: 700,
+        loop: true
+      };
+      var typed = new Typed(".about-me-title", options);
+    </script>
+</body>
+</html>

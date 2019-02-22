@@ -1,0 +1,57 @@
+@import 'reset';
+@import 'nav';
+@import 'styles';
+@import 'canvas';
+@import 'homePage';
+@import 'navigation';
+@import 'mediaQueries';
+
+
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: $primary-font;
+    background-color: black;
+    width: 92%;
+    margin: 0 auto;
+    color: white;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+a{
+    color: $highlight-font-color;
+    text-decoration: none;
+}
+i{
+    color: white;
+    font-size: 47px;
+}
+button{
+    background: none;
+    border: none;
+    padding: 0;
+}
+button:focus{
+    outline: 0;
+}
+button:hover{
+    cursor: pointer;
+}
+i:hover{
+    color: $highlight-font-color;
+}
+a:hover{
+    color: $highlight-font-color;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
