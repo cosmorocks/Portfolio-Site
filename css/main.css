@@ -249,7 +249,7 @@ canvas {
     margin: 0% auto;
   }
   .container .right .text-container .bio-text h1 {
-    margin-top: -20px;
+    margin-top: 0px;
     font-size: calc(3vw + 0.3vw);
   }
   .container .right .text-container .my-links h2 {
