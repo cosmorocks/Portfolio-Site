@@ -1,3 +1,4 @@
+// IPADDDD
 @media (min-width:769px) and (max-width:1025px) {
     .container{
         flex-direction: column;
@@ -8,41 +9,44 @@
         }
         .left{
             .my-img{
-                width: 500px;
-                height: 500px;
+                width: 350px;
+                height: 350px;
                 display: block;
-                margin: 20px auto;
+                margin: 0px auto;
                 .typed-text{
                     color: white;
                     // font grows 1px for every 100px of viewport width
-                    font-size: 85px;
-                    bottom: -8.5%;
+                    font-size: 60px;
+                    bottom: -10.5%;
                     
                 }
             }
+            margin-bottom: 2.5%;
         }
         .right{
             .text-container{
-                margin-top: 50px;
+                margin-top: 5%;
                 text-align: center;
                 .bio-text{
                     width: 90%;
-                    margin: 0 auto;
+                    margin: 5% auto;
                     h1{
-                        font-size: calc(4vw + 0.3vw);
+                        font-size: calc(3vw + 0.3vw);
                     }
                 }
                 .my-links{
+                    margin-top: -5%;
                     h2{
-                        font-size: calc(3vw + 0.3vw);
+                        font-size: calc(2vw + 0.3vw);
                     }
                 }
             }
         }
     }
     .social-container{
+        // margin-bottom: -2%;
         i{
-            font-size: 37px;
+            font-size: 2em;
         }
     }
     .menu-items{
