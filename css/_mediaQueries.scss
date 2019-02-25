@@ -17,7 +17,7 @@
                     color: white;
                     // font grows 1px for every 100px of viewport width
                     font-size: 90px;
-                    bottom: -10.5%;
+                    bottom: -19.5%;
                     
                 }
             }
@@ -29,15 +29,16 @@
                 text-align: center;
                 .bio-text{
                     width: 90%;
-                    margin: 5% auto;
+                    margin: 0% auto;
                     h1{
-                        font-size: calc(4vw + 0.3vw);
+                        margin-top: -20px;
+                        font-size: calc(3vw + 0.3vw);
                     }
                 }
                 .my-links{
-                    margin-top: -4%;
+                    // margin-top: 0%;
                     h2{
-                        font-size: calc(3vw + 0.3vw);
+                        font-size: calc(2.3vw);
                     }
                 }
             }

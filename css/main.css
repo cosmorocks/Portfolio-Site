@@ -239,23 +239,21 @@ canvas {
   .container .left .my-img .typed-text {
     color: white;
     font-size: 90px;
-    bottom: -10.5%;
+    bottom: -19.5%;
   }
   .container .right .text-container {
     text-align: center;
   }
   .container .right .text-container .bio-text {
     width: 90%;
-    margin: 5% auto;
+    margin: 0% auto;
   }
   .container .right .text-container .bio-text h1 {
-    font-size: calc(4vw + 0.3vw);
-  }
-  .container .right .text-container .my-links {
-    margin-top: -4%;
+    margin-top: -20px;
+    font-size: calc(3vw + 0.3vw);
   }
   .container .right .text-container .my-links h2 {
-    font-size: calc(3vw + 0.3vw);
+    font-size: calc(2.3vw);
   }
   .social-container i {
     font-size: 2em;
