@@ -1,68 +1,68 @@
-.container{
-    display: flex;
-    // border: 1px solid white;
-    height: 80vh;
-    .side{
-        // border: 1px solid red;
-        width: 50%;
-        height: 100%;
-    }
-    .left{
-        // overflow: hidden;
-        .my-img{
-            background-image: url("../images/matthew.jpg");
-            height: 40vmax;
-            width: 40vmax;
-            background-size: cover;
-            // background-position: center center;
-            border-radius: $border-radius;
-            // display: none;
-            // z-index: -9999;
-            position: relative;
-            .typed-text{
-                color: white;
-                // font grows 1px for every 100px of viewport width
-                font-size: 5.0vw;
-                font-weight: 600;
-                position: absolute;
-                bottom: -8%;
-                left: 40px;
-            }
-        }
-    }
-    .right{
-        z-index: 9999;
-        display: flex;
-        .text-container{
-            margin-top: 8%;
-            // align-self: center;
-            height: fit-content;
-            // border: 1px solid purple;
-            font-weight: 600;
-            .bio-text{
-                // width: 95%;
-                h1{
-                    font-size: calc(3vw + 0.2vw);
-                }
-            }
-            a{
-                margin-left: 3px;
-            }
-            .my-links{
-                margin-top: 10px;
-                h2{
-                    font-size: calc(1.7vw + 0.5vw);
-                }
-                z-index: 9999;
-            }
-        }
-    }
-    .social-container{
-        position: absolute;
-        bottom: 20px;
-        right: 4%;
-        a{
-            padding: 0px 15px 0px 15px;
-        }
-    }
-}
+// .container{
+//     display: flex;
+//     // border: 1px solid white;
+//     height: 80vh;
+//     .side{
+//         // border: 1px solid red;
+//         width: 50%;
+//         height: 100%;
+//     }
+//     .left{
+//         // overflow: hidden;
+//         .my-img{
+//             background-image: url("../images/matthew.jpg");
+//             height: 40vmax;
+//             width: 40vmax;
+//             background-size: cover;
+//             // background-position: center center;
+//             border-radius: $border-radius;
+//             // display: none;
+//             // z-index: -9999;
+//             position: relative;
+//             .typed-text{
+//                 color: white;
+//                 // font grows 1px for every 100px of viewport width
+//                 font-size: 5.0vw;
+//                 font-weight: 600;
+//                 position: absolute;
+//                 bottom: -8%;
+//                 left: 40px;
+//             }
+//         }
+//     }
+//     .right{
+//         z-index: 9999;
+//         display: flex;
+//         .text-container{
+//             margin-top: 8%;
+//             // align-self: center;
+//             height: fit-content;
+//             // border: 1px solid purple;
+//             font-weight: 600;
+//             .bio-text{
+//                 // width: 95%;
+//                 h1{
+//                     font-size: calc(3vw + 0.2vw);
+//                 }
+//             }
+//             a{
+//                 margin-left: 3px;
+//             }
+//             .my-links{
+//                 margin-top: 10px;
+//                 h2{
+//                     font-size: calc(1.7vw + 0.5vw);
+//                 }
+//                 z-index: 9999;
+//             }
+//         }
+//     }
+//     .social-container{
+//         position: absolute;
+//         bottom: 20px;
+//         right: 4%;
+//         a{
+//             padding: 0px 15px 0px 15px;
+//         }
+//     }
+// }

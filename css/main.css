@@ -59,78 +59,6 @@ canvas {
   top: 0;
 }
 
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 80vh;
-}
-
-.container .side {
-  width: 50%;
-  height: 100%;
-}
-
-.container .left .my-img {
-  background-image: url("../images/matthew.jpg");
-  height: 40vmax;
-  width: 40vmax;
-  background-size: cover;
-  border-radius: 35px;
-  position: relative;
-}
-
-.container .left .my-img .typed-text {
-  color: white;
-  font-size: 5.0vw;
-  font-weight: 600;
-  position: absolute;
-  bottom: -8%;
-  left: 40px;
-}
-
-.container .right {
-  z-index: 9999;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.container .right .text-container {
-  margin-top: 8%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  font-weight: 600;
-}
-
-.container .right .text-container .bio-text h1 {
-  font-size: calc(3vw + 0.2vw);
-}
-
-.container .right .text-container a {
-  margin-left: 3px;
-}
-
-.container .right .text-container .my-links {
-  margin-top: 10px;
-  z-index: 9999;
-}
-
-.container .right .text-container .my-links h2 {
-  font-size: calc(1.7vw + 0.5vw);
-}
-
-.container .social-container {
-  position: absolute;
-  bottom: 20px;
-  right: 4%;
-}
-
-.container .social-container a {
-  padding: 0px 15px 0px 15px;
-}
-
 @-webkit-keyframes fadein {
   from {
     opacity: 0;
@@ -261,93 +189,6 @@ canvas {
   overflow: hidden;
 }
 
-@media (min-width: 769px) and (max-width: 1025px) {
-  .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .container .side {
-    width: 100%;
-    height: 50%;
-  }
-  .container .left .my-img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    margin: 0px auto;
-  }
-  .container .left .my-img .typed-text {
-    color: white;
-    font-size: 90px;
-    bottom: -19.5%;
-  }
-  .container .right .text-container {
-    text-align: center;
-  }
-  .container .right .text-container .bio-text {
-    width: 90%;
-    margin: 0% auto;
-  }
-  .container .right .text-container .bio-text h1 {
-    margin-top: 0px;
-    font-size: calc(3vw + 0.3vw);
-  }
-  .container .right .text-container .my-links h2 {
-    font-size: calc(2.3vw);
-  }
-  .social-container i {
-    font-size: 2em;
-  }
-  .menu-items .menu-link {
-    font-size: 5.5vw;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .container .side {
-    width: 100%;
-    height: 50%;
-  }
-  .container .left .my-img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-  .container .left .my-img .typed-text {
-    color: white;
-    font-size: 45px;
-    bottom: -10%;
-  }
-  .container .right .text-container {
-    text-align: center;
-  }
-  .container .right .text-container .bio-text {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .container .right .text-container .bio-text h1 {
-    font-size: calc(4vw + 0.3vw);
-  }
-  .container .right .text-container .my-links h2 {
-    font-size: calc(3vw + 0.3vw);
-  }
-  .social-container i {
-    font-size: 37px;
-  }
-  .menu-items .menu-link {
-    font-size: 5.5vw;
-  }
-}
-
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -409,5 +250,42 @@ a:hover {
 li {
   text-decoration: none;
   list-style: none;
+}
+
+.god-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 99999;
+}
+
+.msgg {
+  max-width: 1400px;
+  width: 77%;
+  text-align: center;
+}
+
+.msgg a {
+  cursor: pointer;
+  z-index: 999999999;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 24px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
